@@ -8,6 +8,8 @@ root.geometry('800x600')
 root.resizable(width=False, height=False)
 
 def click_button():
+	os.system('chmod +x Fedoscript.sh')
+	os.system('./Fedoscript.sh')
 	os.system('chmod +x script_two.sh')
 	os.system('./script_two.sh')
 	root.destroy()

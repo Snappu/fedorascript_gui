@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 root = Tk ()
 root.title("Fedorascript_GUI")
-root.geometry('800x600')
+root.geometry('600x500')
 root.resizable(width=False, height=False)
 
 def click_button():

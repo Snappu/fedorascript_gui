@@ -12,6 +12,7 @@ def click_button():
 	os.system('./Fedoscript.sh')
 	os.system('chmod +x script_two.sh')
 	os.system('./script_two.sh')
+	os.system('cp -R ./config.conf ~/.config/neofetch/')
 	root.destroy()
 	messagebox.showinfo('good', 'Script started')
 	termstop = input("Click enter to close...")
